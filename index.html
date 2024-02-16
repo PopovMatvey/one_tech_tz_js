@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>info-tecs-clear-js</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="main-conent-container">
+            <div class="main-conent-container_table">
+                <div class="main-content-container_table__title">
+                    <div class="main-content-container_table__title-name">
+                        <span>Имя</span>
+                    </div>
+                    <div class="main-content-container_table__title-lastname">
+                        <span>Фамилия</span>
+                    </div>
+                    <div class="main-content-container_table__title-about">
+                        <span>Описание</span>
+                    </div>
+                    <div class="main-content-container_table__title-eyeColor">
+                        <span>Цвет глаз</span>
+                    </div>
+                </div>
+                <div class="main-content-container_table__main">
+                    <div class="main-content-container_table__main-name">
+                        <span>{firstName}</span>
+                    </div>
+                    <div class="main-content-container_table__main-lastname">
+                        <span>{lastName}</span>
+                    </div>
+                    <div class="main-content-container_table__main-about">
+                        <span>{about}</span>
+                    </div>
+                    <div class="main-content-container_table__main-eyeColor">
+                        <span>{eyeColor}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-conent-container_edit-form">
+                <form>
+                    <label for="name">Имя</label>
+                    <input type="text" id="name">
+                    <label for="lastName">Фамилия</label>
+                    <input type="text" id="lastName">
+                    <label for="about">Описание</label>
+                    <input type="text" id="about">
+                    <label for="eyeColor">Цвет глаз</label>
+                    <input type="text" id="eyeColor">
+                    <input type="submit" value="Применить">
+                </form>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
